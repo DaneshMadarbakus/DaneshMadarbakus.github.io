@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Danesh Madarbakus
-email: because@domain.com
+email: daneshplt@hotmail.co.uk
 description: > # This is the real deal site. you will find it very interesting because it is very interesting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: DaneshDandan
+twitter_username: DanTheMMAn93
 github_username:  DaneshMadarbakus
 
 # Build settings
