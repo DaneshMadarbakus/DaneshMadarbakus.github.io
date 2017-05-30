@@ -1,15 +1,15 @@
 ---
-layout: page
+layout: default
 ---
+<div>
+  <p>These are my projects from WDI at General Assembly</p>
 
-These are all my projects
-
-<ul>
-  {% for project in site.projects %}
+  <ul>
+    {% assign sorted_projects = (site.projects | sort: 'rank') %}
+    {% for project in sorted_projects %}
     <li>
-      <a href="{{ project.url | prepend: site.baseurl }}">
-        {{ project.title }}
-      </a>
+      <a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a>
     </li>
   {% endfor %}
 </ul>
+</div>

@@ -1,9 +1,9 @@
 ---
 layout: project
-title: First project
-subtitle: My first JS exploration... #wetwetwet
-image: http://fillmurray.com/300/300
-heroku: http://something.herokuapp.com
+title:  Conor McGregor Whack-A-Bum
+subtitle: My first project at General Assembly
+<!--image: /assets/images/hangman.jpg-->
+heroku: https://hangman-wdi-one.herokuapp.com/
+rank: 4
 ---
-
-This is a cool game.
+Conor McGregor themed Whack-A-Mole, built with HTML5, CSS3 and jQuery.
