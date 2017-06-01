@@ -1,20 +1,80 @@
----
-layout: default
----
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Danesh Madarbakus Portfolio</title>
+      <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">  
+   
+    <header>
+      <h1>Danesh Madarbakus</h1>
+      <h1>Web Developer</h1>
+    </header>
 
-<div class="home">
+    <nav class="navbar navbar-default" data-spy="affix" data-offset-top="250">
+      <div class="container-fluid container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
-  <h1>Posts</h1>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navli">
+            <li><a href="#">About me</a></li>
+            <li><a href="#">Skillset</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="modal fade suit-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <img class="wdiProjectsImg" src="http://i.imgur.com/g3Hx5sa.png" alt="suit homepage">
+      <h2>Suit</h2>
+      <p>For this project I single-handedly set up the back end of the site using Ruby on Rails and built the front end of the site using HTML5 and AngularJS. The website I created allows its users to upload and rent out their owned suits or hire suits from other people.</p>
+      <h5>Tech used:</h5>
+      <p>HTML5, CSS, Ruby on Rails, POSTGRES, Bootstrap.Js, Express, SCSS & AngularJS.</p>
+    </div>
+  </div>
 </div>
+
+    <main class="container">
+      <h2>General Assembly Web Development Pojects</h2>
+        <div class="wdiPortfolio">
+           <div class="col-md-12">
+            <h4>Fourth Project</h4>
+            <img class="wdiProjectsIcon" data-toggle="modal" data-target=".suit-modal" src="http://i.imgur.com/g3Hx5sa.png" alt="suit homepage">
+          </div>
+          <div class="col-md-12">
+            <h4>Third Project</h4>
+            <img class="wdiProjectsIcon" src="http://i.imgur.com/BFWKzyA.png" alt="input homepage">
+          </div>
+          <div class="col-md-12">
+            <h4>Second Project</h4>
+            <img class="wdiProjectsIcon" src="http://i.imgur.com/Sizr7CC.png" alt="global photos homepage">
+          </div>
+          <div class="col-md-12">
+            <h4>First Project</h4>
+            <img class="wdiProjectsIcon" src="http://i.imgur.com/vthxHsJ.png" alt="conor mcgregor game homepage">
+          </div>
+        </div>
+    </main>
+
+
+  </body>
+</html>
