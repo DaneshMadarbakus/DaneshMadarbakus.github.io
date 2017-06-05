@@ -1,0 +1,30 @@
+/*Sidebar-head*/
+.sidebar-head{
+  height:150px;
+  width:100%;
+  padding:35px 10px 10px 10px;
+  border-bottom: 1px solid red;
+  text-align: center;
+}
+.sidebar-head h4{
+  color:white;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/*Sidebar-list*/
+
+.sidebar-nav{
+  padding:0;
+  list-style: none;
+}
+.sidebar-nav li{
+  text-indent:20px;
+  line-height:40px;
+}
+.sidebar-nav li a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}

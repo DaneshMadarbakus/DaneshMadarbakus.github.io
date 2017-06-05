@@ -1,0 +1,27 @@
+{
+  "name": "danesh-madarbakus-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5",
+    "start": "webpack-dev-server"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaneshMadarbakus/DaneshMadarbakus.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaneshMadarbakus/DaneshMadarbakus.github.io/issues"
+  },
+  "homepage": "https://github.com/DaneshMadarbakus/DaneshMadarbakus.github.io#readme"
+}
