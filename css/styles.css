@@ -1,7 +1,7 @@
 /*Sidebar-wrapper*/
 #sidebar-wrapper {
   position: fixed;
-  background: grey;
+  background: #2e2d2c;
   height: 100%;
   width: 175px; }
 
@@ -22,7 +22,7 @@
   height: 150px;
   width: 100%;
   padding: 35px 10px 10px 10px;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid grey;
   text-align: center; }
 
 .sidebar-head h4 {
@@ -34,7 +34,10 @@
 /*Sidebar-list*/
 .sidebar-nav {
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif; }
 
 .sidebar-nav li {
   text-indent: 20px;
@@ -45,8 +48,16 @@
   text-decoration: none;
   color: #fff; }
 
+.sidebar-footer {
+  width: 175px;
+  height: 120px;
+  border-top: 1px solid grey; }
+
+.row {
+  width: 100%; }
+
 /*Page-content-header*/
-.page-content h1 {
+.whoiam h1 {
   width: 100%;
   margin-top: 40px;
   color: black;
@@ -54,7 +65,7 @@
   font-family: 'Comfortaa', cursive;
   font-weight: 900; }
 
-.page-content hr {
+.whoiam hr {
   display: block;
   height: 1px;
   border: 0;
@@ -63,27 +74,34 @@
   padding: 0; }
 
 /*Page-content-main*/
-.page-content span {
+.whoiam span {
   display: block;
   font-family: 'Comfortaa', cursive;
   font-size: 20px; }
 
-.page-content-contents div {
+.whoiam-content div {
   margin: 10px 0 0 0; }
 
-.page-content-contents div.colnum1 {
+.whoiam-content div.colnum1 {
   padding-left: 0;
   margin: 10px 0 0 0; }
 
-.page-content-contents div img {
+.whoiam-content div.colnum1 img {
   width: 100%;
   padding-right: 10px; }
 
-/*.page-content-contents div.colnum2{
-  padding-left:0;
-  margin:10px 0 0 0;
-}
-.page-content-contents div.colnum3{
-  padding-left:0;
-  margin:10px 0 0 0;
-}*/
+.whoiam-content div.colnum2 {
+  padding: 0;
+  padding-right: 20px;
+  font-size: 15px; }
+
+.whoiam-content div.colnum3 {
+  padding: 0;
+  padding-right: 20px;
+  font-size: 15px; }
+
+.whoiam-content div.colnum3 img {
+  width: 100%; }
+
+.whatIveDone-content div img {
+  width: 100%; }

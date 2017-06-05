@@ -1,18 +1,25 @@
 {
-  "name": "danesh-madarbakus-portfolio",
+  "name": "daneshmadarbakus-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "webpack": "^2.6.1"
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "devDependencies": {
-    "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.4.5",
-    "start": "webpack-dev-server"
+    "gulp": "^3.9.1"
   },
   "scripts": {
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
