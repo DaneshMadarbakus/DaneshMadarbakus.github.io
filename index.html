@@ -18,10 +18,10 @@
           <h4>Web developer</h4>
         </div>
         <ul class="sidebar-nav">
-          <li><a class="whoiamButton" href="#">WHO I AM</a></li>
-          <li><a href="#">WHAT I DO</a></li>
-          <li><a href="#">WHAT I'VE DONE</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a class="whoiamButton" href="#whoiam">WHO I AM</a></li>
+          <li><a href="#whatido">WHAT I DO</a></li>
+          <li><a href="#whativedone">WHAT I'VE DONE</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
         <div class="footer navbar-fixed-bottom sidebar-footer">
           
@@ -29,15 +29,16 @@
       </div>
 
       <div id="page-content-wrapper">
+
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-12 whatIveDone">
-              <h1>My projects</h1>
+              <h1>What I've done</h1>
               <hr>
               <div class="whatIveDone-content">
                   <div class="col-md-4 colnum1">                    
-                    <img class="wdiProjectsIcon" data-toggle="modal" data-target=".suit-modal" src="http://i.imgur.com/g3Hx5sa.png?2" alt="suit homepage">
-                    <div class="colnum1 coverr"><h3>Suit</h3></div>
+                    <img class="wdiProjectsIcon" src="http://i.imgur.com/g3Hx5sa.png?2" alt="suit homepage">
+                    <div class="colnum1 coverr" data-toggle="modal" data-target=".suit-modal"><h3>Suit</h3></div>
                   </div>
                   <div class="col-md-4 colnum2">
                     <img class="wdiProjectsIcon" src="http://i.imgur.com/BFWKzyA.png?1" alt="input homepage">
@@ -52,6 +53,27 @@
                     <div class="colnum1 coverr"><h3>Whack-A-Mole</h3></div>
                   </div>
               </div>
+
+          <div class="modal fade suit-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <img src="http://i.imgur.com/10vuwND.png" alt="suit homepage">
+              <a href="suit-site.herokuapp.com">Visit the site</a>
+              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_4_API">Github API</a>
+              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_4_CLIENT">Github Client</a>
+              <h2>The Suit Sharing Web App</h2>
+              <h5>The Brief:</h5>
+              <p>For the final project of the GENERAL ASSEMBLY web development immersive course, I was tasked to create a fully functional web app using ruby on rails and angularJS in under a week.</p>
+              <h5>The Approach:</h5>
+              <p>After coming up with the idea to create a suit sharing site, I quickly put together a Rails ERD and started developing the back end of the web app. Upon completing and testing my Rails API using Insomnia, I set up the environment of the front end of my site with the neccessary gulp files to make sure development ran smoothly and got to work on building a working front end using AngularJS. </p>
+              <h5>Proudest moment:</h5>
+              <p>Being able to step back and see the progress I made in only 3 months. When first starting this course I had no prior web development experience but being able to see the progress I made in only 3 months made me feel really proud.</p>
+              <h5>Tech used:</h5>
+              <p>HTML5, CSS, Ruby on Rails, POSTGRES, Bootstrap.Js, Express, SCSS & AngularJS.</p>
+            </div>
+          </div>
+        </div>
+
             </div>
           </div>
         </div>
@@ -60,20 +82,6 @@
 
 
 
-
-
-
-<!--<div class="modal fade suit-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <img class="wdiProjectsImg" src="http://i.imgur.com/g3Hx5sa.png" alt="suit homepage">
-      <h2>Suit</h2>
-      <p>For this project I single-handedly set up the back end of the site using Ruby on Rails and built the front end of the site using HTML5 and AngularJS. The website I created allows its users to upload and rent out their owned suits or hire suits from other people.</p>
-      <h5>Tech used:</h5>
-      <p>HTML5, CSS, Ruby on Rails, POSTGRES, Bootstrap.Js, Express, SCSS & AngularJS.</p>
-    </div>
-  </div>
-</div>-->
 
     <div>
   </body>

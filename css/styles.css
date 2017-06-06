@@ -109,6 +109,11 @@
 .whatIveDone hr {
   border: 1px solid red; }
 
+.whatIveDone .suit-modal div div {
+  text-align: center; }
+  .whatIveDone .suit-modal div div img {
+    width: 50%; }
+
 .whatIveDone-content div {
   padding: 5px 0 5px 0; }
   .whatIveDone-content div img {
