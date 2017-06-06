@@ -114,6 +114,21 @@
   .whatIveDone .suit-modal div div img {
     width: 50%; }
 
+.whatIveDone .input-modal div div {
+  text-align: center; }
+  .whatIveDone .input-modal div div img {
+    width: 50%; }
+
+.whatIveDone .global-modal div div {
+  text-align: center; }
+  .whatIveDone .global-modal div div img {
+    width: 50%; }
+
+.whatIveDone .conor-modal div div {
+  text-align: center; }
+  .whatIveDone .conor-modal div div img {
+    width: 50%; }
+
 .whatIveDone-content div {
   padding: 5px 0 5px 0; }
   .whatIveDone-content div img {
