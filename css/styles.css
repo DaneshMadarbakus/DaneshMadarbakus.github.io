@@ -68,12 +68,12 @@
 .whoiam hr {
   border: 1px solid blue; }
 
-/*Page-content-main*/
 .whoiam span {
   display: block;
   font-family: 'Comfortaa', cursive;
   font-size: 20px; }
 
+/*Page-content-main*/
 .whoiam-content div {
   margin: 10px 0 0 0; }
 

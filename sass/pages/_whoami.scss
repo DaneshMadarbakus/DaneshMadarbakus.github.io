@@ -1,21 +1,24 @@
 /*Page-content-header*/ 
-.whoiam h1{
-  width:100%;
-  margin-top:40px;
-  color: rgba(0, 0, 0, 1);
-  font-size:50px;
-  font-family: 'Comfortaa', cursive;
-  font-weight: 900;
-}
-.whoiam hr{
+.whoiam{
+  h1{
+    width:100%;
+    margin-top:40px;
+    color: rgba(0, 0, 0, 1);
+    font-size:50px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+  }
+  hr{
     border: 1px solid blue;
+  }
+  span{
+    display:block;
+    font-family: 'Comfortaa', cursive;
+    font-size:20px;
+  }
 }
 /*Page-content-main*/
-.whoiam span{
-  display:block;
-  font-family: 'Comfortaa', cursive;
-  font-size:20px;
-}
+
 .whoiam-content div{
   margin:10px 0 0 0;
 }
