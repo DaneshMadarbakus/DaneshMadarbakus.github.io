@@ -16,16 +16,15 @@
     "webpack-dev-server": "^2.4.5"
   },
   "devDependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^1.0.3",
     "gulp": "^3.9.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DaneshMadarbakus/DaneshMadarbakus.github.io.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/DaneshMadarbakus/DaneshMadarbakus.github.io.git",
+  "author": "DaneshMadarbakus <daneshplt@hotmail.co.uk>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DaneshMadarbakus/DaneshMadarbakus.github.io/issues"
