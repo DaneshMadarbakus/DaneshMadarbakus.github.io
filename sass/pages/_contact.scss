@@ -1,4 +1,4 @@
-.home{
+.contact{
   h1{
     width:100%;
     margin-top:40px;
@@ -14,5 +14,19 @@
     display:block;
     font-family: 'Comfortaa', cursive;
     font-size:20px;
+  }
+}
+
+.contact-content{
+  .colnum1{
+    height:200px;
+  }
+  .colnum2{
+    height:200px;
+  }
+  #map{
+    width:600px;
+    height:400px;
+    background: grey;
   }
 }

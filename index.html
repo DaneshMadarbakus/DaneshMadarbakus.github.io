@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="portfolio">
+<html>
   <head>
     <meta charset="utf-8">
     <title>Danesh Madarbakus Portfolio</title>
@@ -7,33 +7,65 @@
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://use.fontawesome.com/52c88e39fb.js"></script>
       <link rel="stylesheet" href="css/styles.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf5-dLEF3ofhDCziaRuePMheDnLNpP0WM" charset="utf-8"></script>
       <script src="js/app.js"></script>
-      <base href="/">
   </head>
   <body>  
     <div id="wrapper">
 
       <div id="sidebar-wrapper">
         <div class="sidebar-head">
-          <h4>Danesh Madarbakus</h4>
-          <h4>Web developer</h4>
+          <h4 class="homeButton">Danesh Madarbakus</h4>
+          <h4 class="homeButton">Web developer</h4>
         </div>
-        <ul class="sidebar-nav">
-          <li><a class="whoiamButton" ui-sref="whoiam">WHO I AM</a></li>
-          <li><a href="#whatido" ui-sref="whatido">WHAT I DO</a></li>
-          <li><a class="whatIveDoneButton" ui-sref="whativedone">WHAT I'VE DONE</a></li>
-          <li><a href="#contact" ui-sref="contact">CONTACT</a></li>
-        </ul>
+          <ul class="sidebar-nav">
+            <li><a class="whoiamButton">WHO I AM</a></li>
+            <li><a class="whatIDoButton">WHAT I DO</a></li>
+            <li><a class="whatIveDoneButton">WHAT I'VE DONE</a></li>
+            <li><a class="contactButton" ui-sref="contact">CONTACT</a></li>
+          </ul>
         <div class="footer navbar-fixed-bottom sidebar-footer">
-
+          <a href="https://www.linkedin.com/in/daneshmadarbakus/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i><a>
+            <a href="mailto:daneshplt@hotmail.co.uk?subject=Hello Danesh!"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+            <a class="contactButton"><i class="fa fa-phone-square fa-2x" aria-hidden="true"></i></a>
+            <a href="https://github.com/DaneshMadarbakus" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
         </div>
       </div>
 
       <div id="page-content-wrapper">
-        <main ui-view></main>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12 whoiam">
+              <h1>Danesh Madarbakus</h1>
+              <hr>
+              <span>Web Developer</span>
+              <div class="whoiam-content">
+                <div class="col-md-4 colnum1">
+                  <img src="http://i.imgur.com/Ae30LxX.jpg?1" alt="me">
+                </div>
+                <div class="col-md-4 colnum2">
+                  <p>After a successful run in the IT recruitment industry I am now pursuing a career change as a developer. My career in recruitment gave me heavy exposure to the IT industry as I was speaking to high level IT professionals on a daily basis. As a result I was required to understand the ins and outs of the candidates roles and this slowly led to me having a personal interest in becoming a developer myself. 
+                  <br>
+                  <br>  
+                  After some time and careful thinking, I felt compelled to leave my career in recruitment and pursue what was becoming my new passion, web development. As a result, I have recently completed a 3 month Web Development Immersive course with General Assembly and I am now looking to kick start my career as a web developer.
+                  </p>
+                </div>
+                <div class="col-md-4 colnum3">
+                  <p>I like to keep it simple, I'm not a "web guru" or a "web ninja", I'm a Web Developer...
+                    <br>
+                    <br>
+                    Why so simple you ask?
+                    <br>
+                    <br>
+                    Well... if this guy is being introduced as "Web developer" I'm not sure if I can refer to myself as anything more than that</p>
+                  <img src="http://i.imgur.com/21SI29N.jpg" alt="sir tim berners-lee">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
 

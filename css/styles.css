@@ -10,7 +10,8 @@
   position: absolute;
   height: 100%;
   left: 200px;
-  padding: 20px; }
+  padding: 20px;
+  padding-left: 0; }
 
 /*Page-content*/
 .page-content {
@@ -50,11 +51,27 @@
 
 .sidebar-footer {
   width: 175px;
-  height: 120px;
-  border-top: 1px solid grey; }
+  height: 70px;
+  border-top: 1px solid grey;
+  background: #2e2d2c; }
+  .sidebar-footer a {
+    color: red; }
 
-.row {
-  width: 100%; }
+.home h1 {
+  width: 100%;
+  margin-top: 40px;
+  color: black;
+  font-size: 50px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 900; }
+
+.home hr {
+  border: 1px solid blue; }
+
+.home span {
+  display: block;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px; }
 
 /*Page-content-header*/
 .whoiam h1 {
@@ -165,3 +182,30 @@
 
 .whatIveDone-content .colnum3 {
   padding-left: 6px; }
+
+.contact h1 {
+  width: 100%;
+  margin-top: 40px;
+  color: black;
+  font-size: 50px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 900; }
+
+.contact hr {
+  border: 1px solid blue; }
+
+.contact span {
+  display: block;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px; }
+
+.contact-content .colnum1 {
+  height: 200px; }
+
+.contact-content .colnum2 {
+  height: 200px; }
+
+.contact-content #map {
+  width: 600px;
+  height: 400px;
+  background: grey; }
