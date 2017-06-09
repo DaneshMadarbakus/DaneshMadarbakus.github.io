@@ -1,18 +1,21 @@
 .home{
-  h1{
-    width:100%;
-    margin-top:40px;
-    color: rgba(0, 0, 0, 1);
-    font-size:50px;
-    font-family: 'Comfortaa', cursive;
-    font-weight: 900;
-  }
-  hr{
-    border: 1px solid blue;
-  }
-  span{
-    display:block;
-    font-family: 'Comfortaa', cursive;
-    font-size:20px;
+  padding-left:15px;
+  padding-top:50px;
+  height:100%;
+  margin: 0 auto;
+  background: $white;
+  div{
+    text-align: left;
+    h1{
+      display: inline;
+      border-bottom: 3px solid $color-one;
+      margin:0;
+      font-size:50px;
+      font-weight: 900;
+    }
+    h3{
+      margin-left:20px;
+    }
+
   }
 }

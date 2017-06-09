@@ -1,211 +1,89 @@
-/*Sidebar-wrapper*/
-#sidebar-wrapper {
-  position: fixed;
-  background: #2e2d2c;
-  height: 100%;
-  width: 175px; }
+body {
+  font-family: 'Montserrat', sans-serif; }
 
-/*Page-content-wrapper*/
-#page-content-wrapper {
-  position: absolute;
-  height: 100%;
-  left: 200px;
-  padding: 20px;
-  padding-left: 0; }
-
-/*Page-content*/
-.page-content {
+header {
+  text-align: center;
+  background: black;
   width: 100%;
-  padding: 0 40px 0 15px; }
+  height: 450px;
+  padding: 100px 0 0 0; }
+  header h1 {
+    color: white;
+    font-family: 'League spartan', sans-serif; }
+  header p {
+    color: white;
+    font-size: 30px; }
+  header ul {
+    padding: 0;
+    margin: 60px 0 0 0;
+    height: 20px; }
+    header ul li {
+      display: inline-block;
+      padding: 0;
+      margin: 0 10px 0 10px; }
+      header ul li a {
+        font-size: 20px;
+        color: #F2F1EF; }
+      header ul li a:hover {
+        color: #F2F1EF; }
+      header ul li a:focus {
+        color: #F2F1EF;
+        border: none;
+        outline: none; }
 
-/*Sidebar-head*/
-.sidebar-head {
-  height: 150px;
-  width: 100%;
-  padding: 35px 10px 10px 10px;
-  border-bottom: 1px solid grey;
-  text-align: center; }
+.about-container {
+  padding: 10px 130px 0 130px;
+  background-color: #F2F1EF; }
+  .about-container .about {
+    background: #F2F1EF;
+    text-align: center;
+    height: 100%; }
+    .about-container .about img {
+      height: 160px;
+      width: 160px;
+      border-radius: 50%; }
+    .about-container .about div {
+      padding: 0;
+      height: 190px; }
+    .about-container .about ul {
+      padding: 0;
+      margin: 0;
+      height: 20px; }
+      .about-container .about ul li {
+        display: block;
+        padding: 0;
+        margin: 0; }
 
-.sidebar-head h4 {
-  color: white;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 900;
-  font-style: italic; }
-
-/*Sidebar-list*/
-.sidebar-nav {
-  padding: 0;
-  list-style: none;
-  margin-top: 30px;
-  font-size: 15px;
-  font-family: 'Rubik', sans-serif; }
-
-.sidebar-nav li {
-  text-indent: 20px;
-  line-height: 40px; }
-
-.sidebar-nav li a {
-  display: block;
-  text-decoration: none;
-  color: #fff; }
-
-.sidebar-footer {
-  width: 175px;
-  height: 70px;
-  border-top: 1px solid grey;
-  background: #2e2d2c; }
-  .sidebar-footer a {
-    color: red; }
-
-.home h1 {
-  width: 100%;
-  margin-top: 40px;
-  color: black;
-  font-size: 50px;
-  font-family: 'Comfortaa', cursive;
-  font-weight: 900; }
-
-.home hr {
-  border: 1px solid blue; }
-
-.home span {
-  display: block;
-  font-family: 'Comfortaa', cursive;
-  font-size: 20px; }
-
-/*Page-content-header*/
-.whoiam h1 {
-  width: 100%;
-  margin-top: 40px;
-  color: black;
-  font-size: 50px;
-  font-family: 'Comfortaa', cursive;
-  font-weight: 900; }
-
-.whoiam hr {
-  border: 1px solid blue; }
-
-.whoiam span {
-  display: block;
-  font-family: 'Comfortaa', cursive;
-  font-size: 20px; }
-
-/*Page-content-main*/
-.whoiam-content div {
-  margin: 10px 0 0 0; }
-
-.whoiam-content div.colnum1 {
-  padding-left: 0;
-  margin: 10px 0 0 0; }
-
-.whoiam-content div.colnum1 img {
-  width: 100%;
-  padding-right: 10px; }
-
-.whoiam-content div.colnum2 {
-  padding: 0;
-  padding-right: 20px;
-  font-size: 15px; }
-
-.whoiam-content div.colnum3 {
-  padding: 0;
-  padding-right: 20px;
-  font-size: 15px; }
-
-.whoiam-content div.colnum3 img {
-  width: 100%; }
-
-.whatIveDone h1 {
-  width: 100%;
-  margin-top: 40px;
-  color: black;
-  font-size: 50px;
-  font-family: 'Comfortaa', cursive;
-  font-weight: 900; }
-
-.whatIveDone hr {
-  border: 1px solid red; }
-
-.whatIveDone .suit-modal div div {
-  text-align: center; }
-  .whatIveDone .suit-modal div div img {
-    width: 50%; }
-
-.whatIveDone .input-modal div div {
-  text-align: center; }
-  .whatIveDone .input-modal div div img {
-    width: 50%; }
-
-.whatIveDone .global-modal div div {
-  text-align: center; }
-  .whatIveDone .global-modal div div img {
-    width: 50%; }
-
-.whatIveDone .conor-modal div div {
-  text-align: center; }
-  .whatIveDone .conor-modal div div img {
-    width: 50%; }
-
-.whatIveDone-content div {
-  padding: 5px 0 5px 0; }
-  .whatIveDone-content div img {
-    width: 100%; }
-  .whatIveDone-content div div {
-    opacity: 0;
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 2;
+.projects-container {
+  padding: 0 150px 100px 150px;
+  background: #F2F1EF; }
+  .projects-container .projects {
+    background-color: white;
     width: 100%;
-    height: 100%;
-    background: red; }
-    .whatIveDone-content div div h3 {
-      color: white;
-      font-size: 40px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      height: 30%;
-      width: 50%;
-      margin: -15% 0 0 -25%;
-      text-align: center;
-      letter-spacing: 0.2rem; }
-  .whatIveDone-content div div:hover {
-    opacity: 1; }
+    text-align: center;
+    padding: 20px; }
+    .projects-container .projects div {
+      position: relative;
+      width: 100%;
+      height: 300px; }
+    .projects-container .projects .project4 {
+      text-align: left; }
+    .projects-container .projects .project3 {
+      text-align: right; }
+    .projects-container .projects .project2 {
+      text-align: left; }
+    .projects-container .projects .project1 {
+      text-align: right; }
 
-.whatIveDone-content .colnum1 {
-  padding-right: 6px; }
-
-.whatIveDone-content .colnum2 {
-  padding-right: 3px;
-  padding-left: 3px; }
-
-.whatIveDone-content .colnum3 {
-  padding-left: 6px; }
-
-.contact h1 {
+.contact {
+  padding: 40px;
+  text-align: center;
   width: 100%;
-  margin-top: 40px;
-  color: black;
-  font-size: 50px;
-  font-family: 'Comfortaa', cursive;
-  font-weight: 900; }
+  height: 350px;
+  background-color: black; }
 
-.contact hr {
-  border: 1px solid blue; }
-
-.contact span {
-  display: block;
-  font-family: 'Comfortaa', cursive;
-  font-size: 20px; }
-
-.contact-content .colnum1 {
-  height: 200px; }
-
-.contact-content .colnum2 {
-  height: 200px; }
-
-.contact-content #map {
-  width: 600px;
-  height: 400px;
-  background: grey; }
+footer {
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  background-color: #F2F1EF; }
