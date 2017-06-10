@@ -23,77 +23,81 @@ header {
       margin: 0 10px 0 10px; }
       header ul li a {
         font-size: 20px;
-        color: #F2F1EF; }
+        color: white; }
       header ul li a:hover {
-        color: #F2F1EF; }
+        color: white; }
       header ul li a:focus {
-        color: #F2F1EF;
+        color: white;
         border: none;
         outline: none; }
 
-.about-container {
-  padding: 20px 130px 0 130px;
-  background-color: #F2F1EF; }
-  .about-container .about {
-    background: #F2F1EF;
-    text-align: center;
-    height: 100%; }
-    .about-container .about div {
-      padding: 0;
-      height: 180px; }
-    .about-container .about .imgbox img {
-      height: 160px;
-      width: 160px;
-      border-radius: 50%; }
-    .about-container .about .quote {
-      padding: 30px 0px 0px 0px; }
-      .about-container .about .quote p {
-        font-size: 22px; }
-    .about-container .about .aboutme {
-      height: 250px;
-      text-align: center;
-      padding: 10px; }
-      .about-container .about .aboutme p {
-        font-size: 15px; }
-    .about-container .about .technology {
-      height: 250px;
-      text-align: center;
-      padding: 10px; }
-      .about-container .about .technology p {
-        font-size: 15px; }
+#wrapper {
+  width: 100%;
+  text-align: center; }
+  #wrapper p {
+    margin: 0 auto;
+    width: 950px; }
+  #wrapper .quote {
+    margin: 0 auto;
+    width: 950px;
+    padding: 40px; }
+  #wrapper img {
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 50%; }
+  #wrapper .technology p {
+    width: 100%; }
+  #wrapper .abouty {
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px; }
 
-.projects-container {
-  padding: 0 150px 100px 150px;
-  background: #F2F1EF; }
-  .projects-container .projects {
-    background-color: white;
-    width: 100%;
-    text-align: center;
-    padding: 20px; }
-    .projects-container .projects div {
-      position: relative;
-      width: 100%;
-      height: 300px; }
-    .projects-container .projects .project4 {
-      text-align: left; }
-      .projects-container .projects .project4 img {
-        width: 300px; }
-    .projects-container .projects .project3 {
-      text-align: right; }
-    .projects-container .projects .project2 {
-      text-align: left; }
-    .projects-container .projects .project1 {
-      text-align: right; }
+.project4 h2, .project2 h2 {
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 950px;
+  text-align: left; }
+
+.project4 h4, .project2 h4 {
+  margin: 0 auto;
+  width: 950px;
+  text-align: left; }
+
+.project4 a, .project2 a {
+  display: inline;
+  text-align: left; }
+
+.project4 p, .project2 p {
+  text-align: left; }
+
+.project3 h2, .project1 h2 {
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 950px;
+  text-align: right; }
+
+.project3 h4, .project1 h4 {
+  margin: 0 auto;
+  width: 950px;
+  text-align: right; }
+
+.project3 a, .project1 a {
+  display: inline;
+  text-align: right; }
+
+.project3 p, .project1 p {
+  text-align: right; }
 
 .contact {
   padding: 40px;
   text-align: center;
   width: 100%;
   height: 350px;
-  background-color: black; }
+  background-color: black;
+  color: white; }
 
 footer {
   text-align: center;
   width: 100%;
-  height: 150px;
-  background-color: #F2F1EF; }
+  height: 100px; }
