@@ -17,7 +17,7 @@ header {
   header h1 {
     color: white;
     font-family: 'League spartan', sans-serif;
-    font-size: 70px; }
+    font-size: 60px; }
   header h2 {
     color: white;
     font-size: 30px; }
@@ -139,6 +139,6 @@ footer {
   #wrapper {
     padding-bottom: 0; } }
 
-@media (max-width: 550px) {
+@media (max-width: 475px) {
   header h1 {
     font-size: 50px; } }
