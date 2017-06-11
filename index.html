@@ -3,24 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Danesh Madarbakus Portfolio</title>
-      <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Rubik|Raleway:300,400" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="js/app3.js"></script>
       <script src="https://use.fontawesome.com/52c88e39fb.js"></script>
       <link rel="stylesheet" href="css/styles.css">
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAf5-dLEF3ofhDCziaRuePMheDnLNpP0WM" charset="utf-8"></script>
   </head>
 
   <body>  
       <header>
         <h1>DANESH MADARBAKUS</h1>
-        <p>WEB DEVELOPER</p>
-        <p>LONDON, UK</p>
+        <h2>WEB DEVELOPER</h2>
+        <h2>LONDON, UK</h2>
         <ul class="mynav">
-          <li><a href="#">ABOUT</a></li>/
-          <li><a href="#">PROJECTS</a></li>/
-          <li><a href="#">CONTACTS</a></li>
+          <li><a href="#about">ABOUT</a></li><p>/</p>
+          <li><a href="#projects">PROJECTS</a></li><p>/</p>
+          <li><a href="#contact">CONTACTS</a></li>
         </ul>
       </header>
 
@@ -30,92 +30,85 @@
           
           <h2 class="quote">"I am very passionate about learning, and developing my skills. I am always looking for the latest tech to learn!"</h2>
          
-          <img src="http://i.imgur.com/Ae30LxX.jpg?1" alt="me">
+          <img src="http://i.imgur.com/Ae30LxX.jpg?1" alt="me" id="about">
 
-          <h3>ABOUT ME</h3>
+          <h2>ABOUT</h2>
             
-          <p>I am a full stack web developer based in London, UK. After a successful run in the IT recruitment industry, I decided to completely turn around my career and retrain as a web developer. I have recently completed a 3 month Web Development Immersive course with General Assembly and I am now looking to kick start my career as a web developer.</p>
+          <p class="aboutP">I am a full stack web developer based in London, UK. After a successful run in the IT recruitment industry, I decided to completely turn around my career and retrain as a web developer. I have recently completed a 3 month Web Development Immersive course with General Assembly and I am now looking to kick start my career in my new found passion.</p>
 
 
                 <div class="abouty">
                   <div class="row">
-                    <div class="col-md-4 technology">
+                    <div class="col-sm-4 technology">
                       <span><i class="fa fa-laptop fa-5x" aria-hidden="true"></i></span>
                       <h3>TECHNOLOGY</h3>
                         <p>
-                          Javascript (ES6, React, Angular, jQuery, Node)
-                          <br>Ruby (Ruby on rails, ERB)
-                          <br>HTML5, CSS3, SASS, SCSS, Bootstrap
-                          <br>MongoDB, PostgresQL
-                          <br>Gulp, Webpack
+                          Javascript (ES6, React, Angular, jQuery, Node),
+                          Ruby (Ruby on rails, ERB),
+                          HTML5, CSS3, SASS, SCSS, Bootstrap,
+                          MongoDB, PostgresQL,
+                          Gulp, Webpack
                         </p> 
                     </div>
-                    <div class="col-md-4 technology">
+                    <div class="col-sm-4 technology">
                       <span><i class="fa fa-heart fa-5x" aria-hidden="true"></i></span>
                       <h3>INTERESTS</h3>
                         <p>
-                          70s, 80s & 90s music
-                          <br>Everything martial arts related
-                          <br>Japanese stuff
-                          <br>Exploring new cultures
+                          70s, 80s & 90s music,
+                          Combat sports(Muay Thai, Judo, MMA),
+                          Travelling,
+                          Exploring new cultures, 
+                          Gaming,
+                          Food <3
                         </p>
                     </div>
-                    <div class="col-md-4 technology">
+                    <div class="col-sm-4 technology">
                       <span><i class="fa fa-forward fa-5x" aria-hidden="true"></i></span>
                       <h3>UPCOMING</h3>
-                        <p>I very passionate about web development and I'm always working on picking up new technologies and completing new projects so keep an eye on this space for some new exciting work!</p>
+                        <p>I am very passionate about web development and I'm always working on picking up new technologies and completing new projects! So keep an eye on this space for some new exciting work!</p>
                     </div>
                 </div>
               </div>
 
 
+      <div class="projectsD" id="projects">
+          <h2>PROJECTS</h2>
 
-          <h1>PROJECTS</h1>
-          <div class="row">
-          <div class="col-md-12 project4">
-            <h2>SUIT</h2>
+          <div class="projectLeft">
+            <h3>SUIT</h3>
             <h4>RAILS/ANGULAR APP</h4>
-              <p>
-              <a href="https://suit-site.herokuapp.com">Visit the site</a>
-              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_4_API">Github API</a>
-              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_4_CLIENT">Github Client</a>
-              </p>
+              <a href="https://suit-site.herokuapp.com" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
+              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_4_API" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github API</a>
+              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_4_CLIENT" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github Client</a>
               <p>This was the final project on my General Assembly Web Development Immersive course which was to becompleted in under a week. I created a suit sharing app which allows users to upload suits they own for others to rent from them</p>
           </div>
-          </div>
-          <div class="row">
-          <div class="col-md-12 project3">
-            <h2>INPUT</h2>
+          <div class="projectRight">
+            <h3>INPUT</h3>
             <h4>MEAN STACK APP</h4>
-              <p>
-              <a href="https://inputbltdcx.herokuapp.com">Visit the site</a>
-              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_3">Github</a>
-              </p>
+              <a href="https://inputbltdcx.herokuapp.com" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
+              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_3" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+              <br>
               <p>This was a team project on the General Assembly Web Development Immersive course was to be completed in one week. This app allows companies to register their business and recieve anonymous suggestions from the public.</p>
           </div>
-          </div>
-          <div class="row">
-          <div class="col-md-12 project2">
-            <h2>GLOBAL PHOTOS</h2>
+          <div class="projectLeft">
+            <h3>GLOBAL PHOTOS</h3>
             <h4>NODE, JQUERY, GOOGLE MAPS API</h4>
-            <p>
-            <a href="https://global-photos.herokuapp.com/">Visit the site</a>
-            <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_2">Github</a>
-            </p>
+            <a href="https://global-photos.herokuapp.com/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
+            <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_2" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
             <p>This is was our second project on the General Assembly Web Development Immersive course. This app integrates the Google Maps API with the Unsplash API and plots high definition on the world map according to where they were taken.</p>
           </div>
-          </div>
-          <div class="row">
-          <div class="col-md-12 project1">
-            <h2>WHACK-A-MOLE</h2>
+
+          <div class="projectRight">
+            <h3>WHACK-A-MOLE</h3>
             <h4>JQUERY GAME</h4>
-            <p>
-            <a href="https://conor-whack-a-bum.herokuapp.com/">Visit the site</a>
-            <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_1">Github</a>
-            </p>
+            <a href="https://conor-whack-a-bum.herokuapp.com/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
+            <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_1" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+            <br>
             <p>The first project on the General Assembly Web Development Immersive course and my first experience building a website. This is Conor McGregor themed whack-a-mole game.</p>
-          </div>
-          </div>
+          </div> 
+
+
+          </div> 
       </div>
 
 
@@ -123,12 +116,12 @@
 
 
 
-      <div class="contact">
-        <h1>CONTACT</h1>
-          <p>daneshplt@hotmail.co.uk</p>
-          <a href="https://www.linkedin.com/in/daneshmadarbakus/" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>/
+      <div class="contactD" id="contact">
+        <h2>CONTACT</h2>
+          <h4>daneshplt@hotmail.co.uk</h4>
+          <a href="https://www.linkedin.com/in/daneshmadarbakus/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>/
           <a href="mailto:daneshplt@hotmail.co.uk?subject=Hello Danesh!"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>/
-          <a href="https://github.com/DaneshMadarbakus" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+          <a href="https://github.com/DaneshMadarbakus" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
       </div>
       <footer>
         <p>Danesh Madarbakus | 2017</p>
