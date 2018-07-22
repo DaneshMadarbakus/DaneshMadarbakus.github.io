@@ -1,0 +1,33 @@
+#wrapper{
+  width:100%;
+  text-align: center;
+  background: $secondary-color;
+  padding-bottom: 120px;
+  .aboutP{
+    margin:0 auto;
+    max-width:950px;
+  }
+  .quote{
+    margin:0 auto;
+    max-width: 950px;
+    padding:40px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  img{
+    width:200px;
+    margin-top:50px;
+    border-radius: 50%;
+  }
+  .technology{
+
+    p{
+      width:100%;
+    }
+  }
+  .abouty{
+    max-width:950px;
+    margin: 0 auto;
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+}

@@ -2,13 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danesh Madarbakus Portfolio</title>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Rubik|Raleway:300,400" rel="stylesheet">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <script src="js/app.js"></script>
-      <script src="https://use.fontawesome.com/52c88e39fb.js"></script>
       <link rel="application/vnd.ms-fontobject" href="css/leaguespartan-bold.eot">
       <link rel="image/svg+xml" href="css/leaguespartan-bold.svg">
       <!--<link rel="stylesheet" href="css/leaguespartan-bold.tff">-->
@@ -16,67 +12,78 @@
       <link rel="application/font-woff2" href="css/leaguespartan-bold.woff2">
       <link rel="stylesheet" href="css/stylesheet.css">
       <link rel="stylesheet" href="css/styles.css">
+      <script src="js/vendors /jquery-3.1.1.min.js"></script>
+      <script src="js/vendors /bootstrap.js"></script>
+      <script src="js/custom /app.js"></script>
+      <!-- <script src="https://use.fontawesome.com/52c88e39fb.js"></script> -->
   </head>
 
   <body>  
-      <header>
-        <h1>DANESH MADARBAKUS</h1>
-        <h2>WEB DEVELOPER</h2>
-        <h2>LONDON, UK</h2>
-        <ul class="mynav">
-          <li><a href="#about">ABOUT</a></li><p>/</p>
-          <li><a href="#projects">PROJECTS</a></li><p>/</p>
-          <li><a href="#contact">CONTACTS</a></li>
-        </ul>
+      <header class="text-center bg-primary section-divider">
+        <div class="container">
+            <h1 class="text-white">DANESH MADARBAKUS</h1>
+            <h2>WEB DEVELOPER</h2>
+            <h2>LONDON, UK</h2>
+            <ul>
+              <li><a class="page-link" href="#about">ABOUT</a></li>
+              <li><a class="page-link" href="#projects">PROJECTS</a></li>
+              <li><a class="page-link" href="#contact">CONTACTS</a></li>
+            </ul>
+        </div>
       </header>
 
 
+      <main>
+        <section class="profile section-divider bg-secondary text-black">
+          <div class="container">
+              <p class="quote">"I am very passionate about learning, and developing my skills. I am always looking for the latest tech to learn!"</p>
+              <img src="assets/images/Danesh-64.jpg" alt="me" id="about">
+              <h2>ABOUT</h2>
+              <p>I am a full stack web developer based in London, UK. After a successful run in the IT recruitment industry, I decided to completely turn around my career and retrain as a web developer. I have recently completed a 3 month Web Development Immersive course with General Assembly and I am now looking to kick start my career in my new found passion.</p>
+
+              <div class="row">
+                  <div class="col-sm-4">
+                    <span><i class="fa fa-laptop fa-5x" aria-hidden="true"></i></span>
+                    <h3>TECHNOLOGY</h3>
+                      <p>
+                        Javascript (ES6, React, Angular, jQuery, Node),
+                        Ruby (Ruby on rails, ERB),
+                        HTML5, CSS3, SASS, SCSS, Bootstrap,
+                        MongoDB, PostgresQL,
+                        Gulp, Webpack
+                      </p> 
+                  </div>
+                  <div class="col-sm-4">
+                    <span><i class="fa fa-heart fa-5x" aria-hidden="true"></i></span>
+                    <h3>INTERESTS</h3>
+                      <p>
+                        70s, 80s & 90s music,
+                        Combat sports(Muay Thai, Judo, MMA),
+                        Travelling,
+                        Exploring new cultures, 
+                        Gaming,
+                        Food <3
+                      </p>
+                  </div>
+                  <div class="col-sm-4">
+                    <span><i class="fa fa-forward fa-5x" aria-hidden="true"></i></span>
+                    <h3>UPCOMING</h3>
+                      <p>I'm always working on picking up new technologies and completing new projects! So keep an eye on this space for some new exciting work!</p>
+                  </div>
+              </div>
+          </div>
+        </section>
+
+        <section class="projects">
+
+        </section>
+      </main>
+    <footer>
+      <section></section>
+      <section></section>
+    </footer>
 
       <div id="wrapper">
-          
-          <h2 class="quote">"I am very passionate about learning, and developing my skills. I am always looking for the latest tech to learn!"</h2>
-         
-          <img src="https://i.imgur.com/Ae30LxX.jpg?1" alt="me" id="about">
-
-          <h2>ABOUT</h2>
-            
-          <p class="aboutP">I am a full stack web developer based in London, UK. After a successful run in the IT recruitment industry, I decided to completely turn around my career and retrain as a web developer. I have recently completed a 3 month Web Development Immersive course with General Assembly and I am now looking to kick start my career in my new found passion.</p>
-
-
-                <div class="abouty">
-                  <div class="row">
-                    <div class="col-sm-4 technology">
-                      <span><i class="fa fa-laptop fa-5x" aria-hidden="true"></i></span>
-                      <h3>TECHNOLOGY</h3>
-                        <p>
-                          Javascript (ES6, React, Angular, jQuery, Node),
-                          Ruby (Ruby on rails, ERB),
-                          HTML5, CSS3, SASS, SCSS, Bootstrap,
-                          MongoDB, PostgresQL,
-                          Gulp, Webpack
-                        </p> 
-                    </div>
-                    <div class="col-sm-4 technology">
-                      <span><i class="fa fa-heart fa-5x" aria-hidden="true"></i></span>
-                      <h3>INTERESTS</h3>
-                        <p>
-                          70s, 80s & 90s music,
-                          Combat sports(Muay Thai, Judo, MMA),
-                          Travelling,
-                          Exploring new cultures, 
-                          Gaming,
-                          Food <3
-                        </p>
-                    </div>
-                    <div class="col-sm-4 technology">
-                      <span><i class="fa fa-forward fa-5x" aria-hidden="true"></i></span>
-                      <h3>UPCOMING</h3>
-                        <p>I'm always working on picking up new technologies and completing new projects! So keep an eye on this space for some new exciting work!</p>
-                    </div>
-                </div>
-              </div>
-
-
       <div class="projectsD" id="projects">
           <h2>PROJECTS</h2>
 
@@ -124,7 +131,7 @@
 
       <div class="contactD" id="contact">
         <h2>CONTACT</h2>
-          <h4>daneshplt@hotmail.co.uk</h4>
+          <a>daneshplt@hotmail.co.uk</a>
           <a href="https://www.linkedin.com/in/daneshmadarbakus/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>/
           <a href="mailto:daneshplt@hotmail.co.uk?subject=Hello Danesh!"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>/
           <a href="https://github.com/DaneshMadarbakus" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>

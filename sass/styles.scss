@@ -1,195 +1,32 @@
-$white: white;
-$black: black;
-$primary-color: #DB5461;
-$secondary-color: #E8E8E8;
-$teritary-color: #EFC88B;
+//Call BS before in case variables clash remember need to use an autoprefixer on the css
+//@import "vendors/bootstrap4.0.0.b2/_bootstrap-reboot";
+@import "vendors/bootstrap4.0.0.b2/_bootstrap-grid";
+//@import "vendors/bootstrap4.0.0.b2/_bootstrap"; //Can cherry pick in this file for functionality need bootstrap.js and popper.js
+//@import "helpers/bootstrap-overrides/bootsrap-grid-secondary"; //Addons to add an other grid base 10
 
-body{
-  font-family: 'Raleway', sans-serif;
-}
-h1,h2,h3,h4,h5,h6,a{
-  font-family: 'Montserrat', sans-serif;
-}
-p{
-  font-size:16px;
-  font-weight:lighter;
-}
+@import "base/functions";
+@import "base/variables";
+@import "base/normalize";
+@import "base/mixins";
 
-header{
-  text-align:center;
-  background: $primary-color;
-  width:100%;
-  height: 470px;
-  padding:100px 0 0 0;
-  h1{
-    color:$white;
-    font-family: 'League spartan', sans-serif;
-    font-size: 60px;
-  }
-  h2{
-    color:$white;
-    font-size:30px;
-  }
-  ul{
-    padding:0;
-    margin:60px 0 0 0;
-    height:20px;
-    li{
-      display:inline-block;
-      padding:0;
-      margin:0 10px 0 10px;
-      a{
-        font-size:20px;
-        color:$white;
-      }
-      a:hover{
-        color:$white;
-      }
-      a:focus{
-        color:$white;
-        border:none;
-        outline:none;
-      }
-    }
-    p{
-      display:inline;
-      color: $white;
-    }
-  }
-}
+//@import "vendors/family/family"; // https://github.com/LukyVj/family.scss
+//@import "vendors/font-awesome";
 
-#wrapper{
-  width:100%;
-  text-align: center;
-  background: $secondary-color;
-  padding-bottom: 120px;
-  .aboutP{
-    margin:0 auto;
-    max-width:950px;
-  }
-  .quote{
-    margin:0 auto;
-    max-width: 950px;
-    padding:40px;
-    font-family: 'Montserrat', sans-serif;
-  }
-  img{
-    width:200px;
-    margin-top:50px;
-    border-radius: 50%;
-  }
-  .technology{
+@import "helpers/fonts";
+// @import "helpers/z-index";
+@import "helpers/font-sizes";
+//Overrides
+@import "helpers/bootstrap-overrides/bootsrap-grid-secondary"; //Base 10
 
-    p{
-      width:100%;
-    }
-  }
-  .abouty{
-    max-width:950px;
-    margin: 0 auto;
-    padding-top:50px;
-    padding-bottom:50px;
-  }
-}
+@import "components/bg";
+// @import "components/btns-links";
+// @import "components/form-elements";
+// @import "components/responsive";
+@import "components/text";
+@import "components/titles";
+@import "components/sections";
 
-.projectsD{
-  margin:0 auto;
-  max-width:850px;
-  background:$white;
-  padding:10px 20px 20px 20px;
-  h2{
-    padding:20px 0;
-  }
-  h3{
-    padding: 10px 0 0 0;
-  }
-  h4{
-    font-weight:300;
-  }
-  a{
-    font-size: 18px;
-    font-weight: 300;
-    color:$teritary-color;
-  }
-  a:hover{
-    color:$teritary-color;
-  }
-  a:focus{
-    color:$teritary-color;
-    border:none;
-    outline:none;
-  }
-  p{
-    display:block;
-    max-width: 500px;
-    margin:0;
-    border-bottom:1px solid $teritary-color;
-    padding: 20px 0;
-  }
-  .projectLeft{
-    text-align: left;
-    margin-bottom: 30px;
-    a{
-      padding: 0 10px 0 0;
-    }
-  }
-  .projectRight{
-    text-align: right;
-    margin-bottom: 30px;
-    a{
-      padding: 0 0 0 10px;
-    }
-    p{
-      display:inline-block;
-    }
-  }
-}
-
-
-.contactD{
-  padding:40px;
-  text-align: center;
-  width:100%;
-  height:350px;
-  background-color:$primary-color;
-  color: $white;
-  h4{
-    padding: 30px 0 20px 0;
-  }
-  a{
-    color: $white;
-  }
-  a:hover{
-    color:$white;
-  }
-  a:focus{
-    color:$white;
-    border:none;
-    outline:none;
-  }
-  i{
-    padding: 40px 30px;
-  }
-}
-footer{
-  text-align: center;
-  width:100%;
-  height:60px;
-  p{
-    padding:20px;
-    margin:0;
-  }
-}
-
-@media (max-width: 950px) {
-  #wrapper{
-    padding-bottom:0;
-  }
-}
-@media (max-width: 475px) {
-  header{
-    h1{
-      font-size: 50px;
-    }
-  }
-}
+@import "layout/header";
+@import "layout/footer";
+@import "layout/profile";
+@import "layout/projects";

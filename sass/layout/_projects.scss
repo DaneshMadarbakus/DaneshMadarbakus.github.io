@@ -1,0 +1,52 @@
+.projectsD{
+  margin:0 auto;
+  max-width:850px;
+  background:$white;
+  padding:10px 20px 20px 20px;
+  h2{
+    padding:20px 0;
+  }
+  h3{
+    padding: 10px 0 0 0;
+  }
+  h4{
+    font-weight:300;
+  }
+  a{
+    font-size: 18px;
+    font-weight: 300;
+    color:$teritary-color;
+  }
+  a:hover{
+    color:$teritary-color;
+  }
+  a:focus{
+    color:$teritary-color;
+    border:none;
+    outline:none;
+  }
+  p{
+    display:block;
+    max-width: 500px;
+    margin:0;
+    border-bottom:1px solid $teritary-color;
+    padding: 20px 0;
+  }
+  .projectLeft{
+    text-align: left;
+    margin-bottom: 30px;
+    a{
+      padding: 0 10px 0 0;
+    }
+  }
+  .projectRight{
+    text-align: right;
+    margin-bottom: 30px;
+    a{
+      padding: 0 0 0 10px;
+    }
+    p{
+      display:inline-block;
+    }
+  }
+}
