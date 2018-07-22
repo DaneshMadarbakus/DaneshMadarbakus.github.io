@@ -38,7 +38,7 @@ $themes: (
         base: $secondary-color,
         darken: darken($secondary-color, 20%),
         lighten: lighten($secondary-color, 20%),
-        contrast: $white
+        contrast: $black
     ),
     teritary: (
         base: $teritary-color,
