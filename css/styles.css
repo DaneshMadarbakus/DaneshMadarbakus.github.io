@@ -1897,6 +1897,8 @@ footer .contact ul {
         color: #DB5461;
         background: #ffffff;
         border-style: solid; }
+      footer .contact ul li a i {
+        font-size: 2.5rem; }
 
 footer .footer-footer {
   padding: 1rem 0; }
