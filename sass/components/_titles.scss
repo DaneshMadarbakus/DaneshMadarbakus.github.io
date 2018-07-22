@@ -17,4 +17,7 @@ h1{
   @include min($bp-sm){
     width: 40%;
   }
+  &.white{
+    border-color:$white;
+  }
 }

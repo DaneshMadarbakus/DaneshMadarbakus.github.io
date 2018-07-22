@@ -1804,6 +1804,8 @@ h1 {
   @media only screen and (min-width: 48em) {
     .alternate-heading {
       width: 40%; } }
+  .alternate-heading.white {
+    border-color: #ffffff; }
 
 .section-divider {
   padding: 2rem 0 2rem 0; }
@@ -1861,35 +1863,44 @@ header ul {
         color: #DB5461;
         background: #ffffff;
         border-style: solid; }
-  header ul li:last-child:after {
-    display: none; }
 
-.contactD {
-  padding: 40px;
-  text-align: center;
-  width: 100%;
-  height: 350px;
-  background-color: #DB5461;
+footer .contact a {
   color: #ffffff; }
-  .contactD h4 {
-    padding: 30px 0 20px 0; }
-  .contactD a {
-    color: #ffffff; }
-  .contactD a:hover {
-    color: #ffffff; }
-  .contactD a:focus {
-    color: #ffffff;
-    border: none;
-    outline: none; }
-  .contactD i {
-    padding: 40px 30px; }
 
-footer {
-  text-align: center;
-  width: 100%;
-  height: 60px; }
-  footer p {
-    padding: 20px;
+footer .contact ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2.5rem 0 0 0;
+  justify-content: center; }
+  footer .contact ul li {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px; }
+    footer .contact ul li a {
+      display: block;
+      color: #ffffff;
+      cursor: pointer;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 1.125rem 1rem 1rem;
+      border: 1px dashed #ffffff; }
+      footer .contact ul li a:hover {
+        color: #DB5461;
+        background: #ffffff;
+        border-style: solid; }
+      footer .contact ul li a:focus {
+        color: #DB5461;
+        background: #ffffff;
+        border-style: solid; }
+
+footer .footer-footer {
+  padding: 1rem 0; }
+  footer .footer-footer p {
     margin: 0; }
 
 .profile .quote {
@@ -1941,43 +1952,3 @@ footer {
       .projects-holder .project-block:nth-child(odd) a {
         padding-left: 1rem;
         padding-right: 0; }
-
-.projectsD {
-  margin: 0 auto;
-  max-width: 850px;
-  background: #ffffff;
-  padding: 10px 20px 20px 20px; }
-  .projectsD h2 {
-    padding: 20px 0; }
-  .projectsD h3 {
-    padding: 10px 0 0 0; }
-  .projectsD h4 {
-    font-weight: 300; }
-  .projectsD a {
-    font-size: 18px;
-    font-weight: 300;
-    color: #EFC88B; }
-  .projectsD a:hover {
-    color: #EFC88B; }
-  .projectsD a:focus {
-    color: #EFC88B;
-    border: none;
-    outline: none; }
-  .projectsD p {
-    display: block;
-    max-width: 500px;
-    margin: 0;
-    border-bottom: 1px solid #EFC88B;
-    padding: 20px 0; }
-  .projectsD .projectLeft {
-    text-align: left;
-    margin-bottom: 30px; }
-    .projectsD .projectLeft a {
-      padding: 0 10px 0 0; }
-  .projectsD .projectRight {
-    text-align: right;
-    margin-bottom: 30px; }
-    .projectsD .projectRight a {
-      padding: 0 0 0 10px; }
-    .projectsD .projectRight p {
-      display: inline-block; }
