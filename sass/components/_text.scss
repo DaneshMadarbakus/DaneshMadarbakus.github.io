@@ -7,9 +7,14 @@
 
 a {
     text-decoration: none;
+    font-family: $paragraph;
     &.page-link{
       font-size:1.25rem;
     }
+}
+
+p{
+  font-family:$paragraph;
 }
 
 .list-unstyled {

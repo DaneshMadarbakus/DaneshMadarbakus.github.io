@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="css/stylesheet.css">
       <link rel="stylesheet" href="css/styles.css">
       <script src="js/vendors /jquery-3.1.1.min.js"></script>
+      <script src="js/vendors /popper.js"></script>
       <script src="js/vendors /bootstrap.js"></script>
       <script src="js/custom /app.js"></script>
       <!-- <script src="https://use.fontawesome.com/52c88e39fb.js"></script> -->
@@ -26,18 +27,18 @@
             <h2>LONDON, UK</h2>
             <ul>
               <li><a class="page-link" href="#about">ABOUT</a></li>
+              <li><a class="page-link" href="#about">CAREER</a></li>
               <li><a class="page-link" href="#projects">PROJECTS</a></li>
               <li><a class="page-link" href="#contact">CONTACTS</a></li>
             </ul>
         </div>
       </header>
 
-
       <main>
-        <section class="profile section-divider bg-secondary text-black">
+        <section class="profile section-divider bg-secondary text-black text-center" id="about">
           <div class="container">
-              <p class="quote">"I am very passionate about learning, and developing my skills. I am always looking for the latest tech to learn!"</p>
-              <img src="assets/images/Danesh-64.jpg" alt="me" id="about">
+              <!-- <p class="quote">"I am very passionate about learning, and developing my skills. I am always looking for the latest tech to learn!"</p> -->
+              <img src="assets/images/Danesh-64.jpg" alt="me">
               <h2>ABOUT</h2>
               <p>I am a full stack web developer based in London, UK. After a successful run in the IT recruitment industry, I decided to completely turn around my career and retrain as a web developer. I have recently completed a 3 month Web Development Immersive course with General Assembly and I am now looking to kick start my career in my new found passion.</p>
 
@@ -46,19 +47,14 @@
                     <span><i class="fa fa-laptop fa-5x" aria-hidden="true"></i></span>
                     <h3>TECHNOLOGY</h3>
                       <p>
-                        Javascript (ES6, React, Angular, jQuery, Node),
-                        Ruby (Ruby on rails, ERB),
-                        HTML5, CSS3, SASS, SCSS, Bootstrap,
-                        MongoDB, PostgresQL,
-                        Gulp, Webpack
+                        Javascript (ES6, React, Angular, jQuery, Node), Ruby (Ruby on rails, ERB), HTML5, CSS, SASS, SCSS, Bootstrap, MongoDB, PostgresQL, Gulp, Webpack
                       </p> 
                   </div>
                   <div class="col-sm-4">
                     <span><i class="fa fa-heart fa-5x" aria-hidden="true"></i></span>
                     <h3>INTERESTS</h3>
                       <p>
-                        70s, 80s & 90s music,
-                        Combat sports(Muay Thai, Judo, MMA),
+                        70s, 80s & 90s music, Combat sports(Muay Thai, Judo, MMA),
                         Travelling,
                         Exploring new cultures, 
                         Gaming,
@@ -75,69 +71,72 @@
         </section>
 
         <section class="projects">
+          <div class="projects-holder">
+            <div class="container">
+              <h2>PROJECTS</h2>
 
+              <div class="project-block row">
+                <div class="project-info">
+                    <h3>SUIT</h3>
+                    <h4>RAILS/ANGULAR APP</h4>
+                      <a href="https://suit-site.herokuapp.com" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
+                      <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_4_API" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github API</a>
+                      <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_4_CLIENT" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github Client</a>
+                      <p>This was the final project on my General Assembly Web Development Immersive course which was to becompleted in under a week. I created a suit sharing app which allows users to upload suits they own for others to rent from them. The technologies I used to build this app were: HTML5, CSS, Ruby on Rails, PostgresQL, BootstrapJs, Express, SCSS & AngularJS.</p>
+                </div>
+                <div class="project-preview"></div>
+              </div>
+
+              <div class="project-block row">
+                  <div class="project-info">
+                      <h3>INPUT</h3>
+                      <h4>MEAN STACK APP</h4>
+                        <a href="https://inputbltdcx.herokuapp.com" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
+                        <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_3" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                        <br>
+                        <p>This was a team project on the General Assembly Web Development Immersive course was to be completed in one week. This app allows companies to register their business and recieve anonymous suggestions from the public. The technologies I used to build this app were: HTML5, CSS, Node.Js, Express, MONGO, BootstrapJs, SCSS & AngularJS.</p>
+                  </div>
+                  <div class="project-preview"></div>
+                </div>
+
+                <div class="project-block row">
+                    <div class="project-info">
+                        <h3>GLOBAL PHOTOS</h3>
+                        <h4>NODE, JQUERY, GOOGLE MAPS API</h4>
+                        <a href="https://global-photos.herokuapp.com/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
+                        <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_2" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                        <p>This is was our second project on the General Assembly Web Development Immersive course. This app integrates the Google Maps API with the Unsplash API and plots high definition on the world map according to where they were taken. The technologies I used to build this app were: HTML5, CSS, Node.Js, Express, MONGO, BootstrapJs, SCSS, & jQuery.</p>
+                    </div>
+                    <div class="project-preview"></div>
+                  </div>
+                  <div class="project-block row">
+                      <div class="project-info">
+                          <h3>WHACK-A-MOLE</h3>
+                          <h4>JQUERY GAME</h4>
+                          <a href="https://conor-whack-a-bum.herokuapp.com/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
+                          <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_1" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                          <br>
+                          <p>The first project on the General Assembly Web Development Immersive course and my first experience building a website. This is Conor McGregor themed whack-a-mole game. The technologies I used to build this app were: HTML5, CSS & jQuery.</p>
+                        </div> 
+              
+                      </div>
+                      <div class="project-preview"></div>
+                    </div>
+            </div>
+          </div>
         </section>
       </main>
     <footer>
-      <section></section>
-      <section></section>
-    </footer>
-
-      <div id="wrapper">
-      <div class="projectsD" id="projects">
-          <h2>PROJECTS</h2>
-
-          <div class="projectLeft">
-            <h3>SUIT</h3>
-            <h4>RAILS/ANGULAR APP</h4>
-              <a href="https://suit-site.herokuapp.com" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
-              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_4_API" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github API</a>
-              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_4_CLIENT" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github Client</a>
-              <p>This was the final project on my General Assembly Web Development Immersive course which was to becompleted in under a week. I created a suit sharing app which allows users to upload suits they own for others to rent from them. The technologies I used to build this app were: HTML5, CSS, Ruby on Rails, PostgresQL, BootstrapJs, Express, SCSS & AngularJS.</p>
-          </div>
-          <div class="projectRight">
-            <h3>INPUT</h3>
-            <h4>MEAN STACK APP</h4>
-              <a href="https://inputbltdcx.herokuapp.com" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
-              <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_3" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-              <br>
-              <p>This was a team project on the General Assembly Web Development Immersive course was to be completed in one week. This app allows companies to register their business and recieve anonymous suggestions from the public. The technologies I used to build this app were: HTML5, CSS, Node.Js, Express, MONGO, BootstrapJs, SCSS & AngularJS.</p>
-          </div>
-          <div class="projectLeft">
-            <h3>GLOBAL PHOTOS</h3>
-            <h4>NODE, JQUERY, GOOGLE MAPS API</h4>
-            <a href="https://global-photos.herokuapp.com/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
-            <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_2" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-            <p>This is was our second project on the General Assembly Web Development Immersive course. This app integrates the Google Maps API with the Unsplash API and plots high definition on the world map according to where they were taken. The technologies I used to build this app were: HTML5, CSS, Node.Js, Express, MONGO, BootstrapJs, SCSS, & jQuery.</p>
-          </div>
-
-          <div class="projectRight">
-            <h3>WHACK-A-MOLE</h3>
-            <h4>JQUERY GAME</h4>
-            <a href="https://conor-whack-a-bum.herokuapp.com/" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i> Visit site</a>
-            <a href="https://github.com/DaneshMadarbakus/WDI_PROJECT_1" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-            <br>
-            <p>The first project on the General Assembly Web Development Immersive course and my first experience building a website. This is Conor McGregor themed whack-a-mole game. The technologies I used to build this app were: HTML5, CSS & jQuery.</p>
-          </div> 
-
-
-          </div> 
-      </div>
-
-
-
-
-
-
-      <div class="contactD" id="contact">
-        <h2>CONTACT</h2>
-          <a>daneshplt@hotmail.co.uk</a>
+      <section>
+          <h3 class="h2">CONTACT</h3>
+          <a href="mailto:daneshplt@hotmail.co.uk">daneshplt@hotmail.co.uk</a>
           <a href="https://www.linkedin.com/in/daneshmadarbakus/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>/
           <a href="mailto:daneshplt@hotmail.co.uk?subject=Hello Danesh!"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>/
           <a href="https://github.com/DaneshMadarbakus" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-      </div>
-      <footer>
-        <p>Danesh Madarbakus | 2017</p>
-      </footer>
+      </section>
+      <section>
+          <p>Danesh Madarbakus | 2017</p>
+      </section>
+    </footer>
   </body>
 </html>

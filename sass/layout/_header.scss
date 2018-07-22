@@ -1,33 +1,65 @@
 header{
+  h1{
+    margin-bottom:0;
+    @include min($bp-ms){
+      margin-bottom:1rem;
+    }
+  }
+  h2{
+    margin-bottom:0.25rem;
+    @include min($bp-ms){
+      margin-bottom:1rem;
+    }
+  }
   ul{
     margin:0;
-    padding:2.5rem 0 0 0;
+    padding:1rem 0 0 0;
     display:flex;
     justify-content: center;
     list-style-type: none;
     flex-wrap: wrap;
+    flex-direction: column;
+
+    @include min($bp-ms){
+      flex-direction: row;
+      padding:2.5rem 0 0 0;
+      justify-content: space-around;
+    }
+
     li{
-      padding:0 1rem;
       position:relative;
 
-      &:after{
-        content:'/';
-        position:absolute;
-        right:0;
+      @include min($bp-ms){
+        width:45%;
+      }
+
+      @include min($bp-sm){
+        width:23%;
       }
       
       a{
+        display:block;
         color: color(white);
-      }
-      a:hover{
-        color: color(teritary);
-      }
-      a:focus{
-        color: color(teritary);
-        border:none;
-        outline:none;
+        cursor:pointer;
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:1.125rem 1rem 1rem;
+        border: 1px dashed $white;
+        
+        &:hover{
+          color: color(primary);
+          background:$white;
+          border-style: solid;
+        }
+        &:focus{
+          color: color(primary);
+          background:$white;
+          border-style: solid;
+        }
       }
     }
+
     li:last-child{
       &:after{
         display:none;
